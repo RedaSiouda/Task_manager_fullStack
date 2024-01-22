@@ -14,7 +14,7 @@ function App() {
         const response = await axios.get('http://localhost:3001/api/v1/task');
         setTasks(response.data);
       } catch (error) {
-        console.error('Error fetching tasks:', error);
+        console.error('Error fetching:', error);
       }
     };
 
