@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/v1/task 
+Content-Type: application/json
+
+{
+    "task": "Tondre la pelouse",
+    "userId": "65a1b426e74031fddbf50652",
+    
+}

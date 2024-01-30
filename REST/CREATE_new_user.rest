@@ -1,0 +1,9 @@
+
+POST http://localhost:3001/api/v1/new-user
+Content-Type: application/json
+
+{
+  "username": "Alt23",
+  "name": "Alt",
+  "password": "Alt23"
+}
